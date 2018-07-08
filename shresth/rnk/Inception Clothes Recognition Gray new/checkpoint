@@ -1,0 +1,4 @@
+model_checkpoint_path: "ICRGmodel.ckpt"
+all_model_checkpoint_paths: "../Inception Clothes Recognition Gray/ICRG"
+all_model_checkpoint_paths: "../Inception Clothes Recognition Gray/ICRGmodel.ckpt"
+all_model_checkpoint_paths: "ICRGmodel.ckpt"

@@ -1,0 +1,24 @@
+<HTML>
+<body>
+
+<h1>Classification Example</h1>
+
+<p>Trained Convolution Neural Network on Men's Clothes</p>
+
+<p>Input any of these 10 classes of images</p>
+<p>               1. Blazers, leather jackets, denim jackets</p>
+<p>               2. Trousers maybe chinos, cropped, drop crotch</p>
+<p>               3. Denim jeans</p>
+<p>               4. T-shirt</p>
+<p>               5. Shorts</p>
+<p>               6. Underwear brief or boxers</p>
+<p>                      !!!!! Please only put link to images resembling to any these classes!!!!!</p>
+
+<form name = "form" action = "/rnk/result" method = "POST"> {% csrf_token %}
+	Link to Image:<br>
+	<input type="text" name="link"><br>
+	<input type="submit" value = "Submit">
+</form>
+
+</body>
+</HTML>
